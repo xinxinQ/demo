@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxShortToUrl.aspx.cs" Inherits="ILog.Web.Ajax.AjaxShortToUrl" %>

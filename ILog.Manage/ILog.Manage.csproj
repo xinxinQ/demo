@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDB5783C-64EC-4DBD-A87C-081CA3B88E52}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ILog.Manage</RootNamespace>
+    <AssemblyName>ILog.Manage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Com.ILog.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ILog.Web\bin\Com.ILog.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="certificateDetial.aspx" />
+    <Content Include="certificateHome.aspx" />
+    <Content Include="ILogAuthenticationHistoryNotPass.aspx" />
+    <Content Include="js\dialog.js" />
+    <Content Include="js\jquery-1.3.2.js" />
+    <Content Include="js\lhgdialog.min.js" />
+    <Content Include="js\skins\blue.css" />
+    <Content Include="js\skins\blue\blue_s.png" />
+    <Content Include="js\skins\blue\blue_s2.png" />
+    <Content Include="js\skins\blue\ie6\blue_titbtn.gif" />
+    <Content Include="js\skins\blue\ie6\ui_b.png" />
+    <Content Include="js\skins\blue\ie6\ui_l.png" />
+    <Content Include="js\skins\blue\ie6\ui_lb.png" />
+    <Content Include="js\skins\blue\ie6\ui_lt.png" />
+    <Content Include="js\skins\blue\ie6\ui_lt2.png" />
+    <Content Include="js\skins\blue\ie6\ui_r.png" />
+    <Content Include="js\skins\blue\ie6\ui_rb.png" />
+    <Content Include="js\skins\blue\ie6\ui_rt.png" />
+    <Content Include="js\skins\blue\ie6\ui_rt2.png" />
+    <Content Include="js\skins\blue\ie6\ui_t.png" />
+    <Content Include="js\skins\blue\ie6\ui_t2.png" />
+    <Content Include="js\skins\chrome.css" />
+    <Content Include="js\skins\chrome\chrome_s.gif" />
+    <Content Include="js\skins\chrome\chrome_s2.gif" />
+    <Content Include="js\skins\chrome\chrome_s3.gif" />
+    <Content Include="js\skins\default.css" />
+    <Content Include="js\skins\discuz.css" />
+    <Content Include="js\skins\icons\32X32\fail.png" />
+    <Content Include="js\skins\icons\32X32\hits.png" />
+    <Content Include="js\skins\icons\32X32\i.png" />
+    <Content Include="js\skins\icons\32X32\succ.png" />
+    <Content Include="js\skins\icons\alert.gif" />
+    <Content Include="js\skins\icons\confirm.gif" />
+    <Content Include="js\skins\icons\discuz_bg.gif" />
+    <Content Include="js\skins\icons\error.gif" />
+    <Content Include="js\skins\icons\face-sad.png" />
+    <Content Include="js\skins\icons\face-smile.png" />
+    <Content Include="js\skins\icons\gb_tip_layer.png" />
+    <Content Include="js\skins\icons\gb_tip_layer_ie6.png" />
+    <Content Include="js\skins\icons\lhgcore.gif" />
+    <Content Include="js\skins\icons\loading.gif" />
+    <Content Include="js\skins\icons\prompt.gif" />
+    <Content Include="js\skins\icons\success.gif" />
+    <Content Include="js\skins\icons\tips.gif" />
+    <Content Include="js\skins\idialog.css" />
+    <Content Include="js\skins\idialog\idialog_s.png" />
+    <Content Include="js\skins\idialog\idialog_s2.png" />
+    <Content Include="js\skins\idialog\ie6\ui_b.png" />
+    <Content Include="js\skins\idialog\ie6\ui_close.hover.png" />
+    <Content Include="js\skins\idialog\ie6\ui_close.png" />
+    <Content Include="js\skins\idialog\ie6\ui_l.png" />
+    <Content Include="js\skins\idialog\ie6\ui_lb.png" />
+    <Content Include="js\skins\idialog\ie6\ui_lt.png" />
+    <Content Include="js\skins\idialog\ie6\ui_r.png" />
+    <Content Include="js\skins\idialog\ie6\ui_rb.png" />
+    <Content Include="js\skins\idialog\ie6\ui_rt.png" />
+    <Content Include="js\skins\idialog\ie6\ui_t.png" />
+    <Content Include="js\skins\jtop.css" />
+    <Content Include="js\skins\mac.css" />
+    <Content Include="js\skins\qq2011.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="certificateDetial.aspx.cs">
+      <DependentUpon>certificateDetial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="certificateDetial.aspx.designer.cs">
+      <DependentUpon>certificateDetial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="certificateHome.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>certificateHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="certificateHome.aspx.designer.cs">
+      <DependentUpon>certificateHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ILogAuthenticationHistoryNotPass.aspx.cs">
+      <DependentUpon>ILogAuthenticationHistoryNotPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ILogAuthenticationHistoryNotPass.aspx.designer.cs">
+      <DependentUpon>ILogAuthenticationHistoryNotPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ilog.BLL\Ilog.BLL.csproj">
+      <Project>{4224A5C6-9073-4A1D-8D71-7883364C0A91}</Project>
+      <Name>Ilog.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ILog.Model\ILog.Model.csproj">
+      <Project>{4902DC5C-3C1A-413E-B307-951CE603EEC3}</Project>
+      <Name>ILog.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17810</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

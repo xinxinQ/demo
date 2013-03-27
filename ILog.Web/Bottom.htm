@@ -1,0 +1,134 @@
+﻿
+<!--底部开始-->
+<div class="bottom Tc">
+<div class="Hr_10">
+</div>
+<a href="http://www.instrument.com.cn/service/about.htm" class="White"   target="_blank">关于我们</a> - 
+<a href="http://www.instrument.com.cn/service/navigate.htm"class="White"  target="_blank">栏目导航</a> - 
+<a href="http://www.instrument.com.cn/Resume/" class="White"  target="_blank">诚聘英才</a> - 
+<a href="http://www.instrument.com.cn/service/vip_service.htm"class="White"  target="_blank">VIP会员中心</a> - 
+<a href="http://bbs.instrument.com.cn/forum_464.htm"class="White"   target="_blank">客户投诉</a> - 
+<a href="http://www.instrument.com.cn/service/link.htm" class="White"  target="_blank">友情链接</a> - 
+<a href="http://www.instrument.com.cn/service/juristic.htm" class="White"  target="_blank">法律声明</a> - 
+<a href="http://www.instrument.com.cn/service/contacts.htm" class="White"  target="_blank">联系我们</a> - 
+<a href="http://www.instrument.com.cn/news/NewsList.asp?SortID=7"class="White"  target="_blank">本网动态</a>
+<br />
+Instrument.com.cn Copyright<span class="Fa">&copy; </span>
+1999-2012,All Rights Reserved
+版权所有</div>
+<style type="text/css">
+  /*回到顶部*/
+    #scrolltop {
+	DISPLAY: block; BACKGROUND: url(http://simg.instrument.com.cn/ilog/blue/images/top_img.png) no-repeat 50% 0px;  WIDTH: 26px; visibility:hidden; CURSOR: pointer; BOTTOM: 180px; LINE-HEIGHT: 999px; POSITION: fixed; HEIGHT: 100px
+    }
+    .ie6 #scrolltop {
+        BOTTOM: auto; POSITION: absolute
+    }
+    
+    /*顶部定位*/
+    .dw{width:126px; height:190px;background-color: #b1d927;}
+
+    </style>
+<!--回到顶部JS-->
+<DIV style="MARGIN: 0px auto; WIDTH: 960px; height:1px;" id="ft"></DIV>
+  <SPAN id="scrolltop" onclick="window.scrollTo('0','0')">回顶部</SPAN>
+
+    
+      <script language="javascript">
+      
+      //回到顶部效果    var BROWSER = {};    var USERAGENT = navigator.userAgent.toLowerCase();    browserVersion({'ie':'msie','firefox':'','chrome':'','opera':'','safari':'','mozilla':'','webkit':'','maxthon':'','qq':'qqbrowser'});    if(BROWSER.safari)     {    BROWSER.firefox = true;    }    BROWSER.opera = BROWSER.opera ? opera.version() : 0;    HTMLNODE = document.getElementsByTagName('head')[0].parentNode;    if(BROWSER.ie)     {    BROWSER.iemode = parseInt(typeof document.documentMode != 'undefined' ? document.documentMode : BROWSER.ie);    HTMLNODE.className = 'ie_all ie' + BROWSER.iemode;    }    if(BROWSER.firefox && window.HTMLElement)     {    HTMLElement.prototype.__defineSetter__('outerHTML', function(sHTML) {    var r = this.ownerDocument.createRange();    r.setStartBefore(this);    var df = r.createContextualFragment(sHTML);    this.parentNode.replaceChild(df,this);    return sHTML;    });    HTMLElement.prototype.__defineGetter__('outerHTML', function() {    var attr;    var attrs = this.attributes;    var str = '<' + this.tagName.toLowerCase();    for(var i = 0;i < attrs.length;i++){    attr = attrs[i];    if(attr.specified)    str += ' ' + attr.name + '="' + attr.value + '"';    }    if(!this.canHaveChildren) {    return str + '>';    }    return str + '>' + this.innerHTML + '</' + this.tagName.toLowerCase() + '>';    });    HTMLElement.prototype.__defineGetter__('canHaveChildren', function() {    switch(this.tagName.toLowerCase()) {    case 'area':case 'base':case 'basefont':case 'col':case 'frame':case 'hr':case 'img':case 'br':case 'input':case 'isindex':case 'link':case 'meta':case 'param':    return false;    }    return true;    });    }    function $G(id)     {    return !id ? null : document.getElementById(id);    }    function _attachEvent(obj, evt, func, eventobj)     {    eventobj = !eventobj ? obj : eventobj;         if(obj.addEventListener)     {    obj.addEventListener(evt, func, false);    }     else if(eventobj.attachEvent)     {    obj.attachEvent('on' + evt, func);    }    }    function _detachEvent(obj, evt, func, eventobj)     {    eventobj = !eventobj ? obj : eventobj;         if(obj.removeEventListener)     {    obj.removeEventListener(evt, func, false);    }     else if(eventobj.detachEvent)     {    obj.detachEvent('on' + evt, func);    }    }        function browserVersion(types) 
+{
+	var other = 1;
+	for(i in types) 
+	{
+		var v = types[i] ? types[i] : i;
+		
+		if(USERAGENT.indexOf(v) != -1) 
+		{
+			var re = new RegExp(v + '(\\/|\\s)([\\d\\.]+)', 'ig');
+			var matches = re.exec(USERAGENT);
+			var ver = matches != null ? matches[2] : 0;
+			other = ver !== 0 && v != 'mozilla' ? 0 : other;
+		}
+		else 
+		{
+			var ver = 0;
+		}
+		
+		eval('BROWSER.' + i + '= ver');
+	}
+	
+	BROWSER.other = other;
+}
+function getCurrentStyle(obj, cssproperty, csspropertyNS) 
+{
+	if(obj.style[cssproperty])
+	{
+		return obj.style[cssproperty];
+	}
+	if (obj.currentStyle) 
+	{
+		return obj.currentStyle[cssproperty];
+	} 
+	else if (document.defaultView.getComputedStyle(obj, null)) 
+	{
+		var currentStyle = document.defaultView.getComputedStyle(obj, null);
+		var value = currentStyle.getPropertyValue(csspropertyNS);
+		
+		if(!value)
+		{
+			value = currentStyle[cssproperty];
+		}
+		
+		return value;
+	} 
+	else if (window.getComputedStyle) 
+	{
+		var currentStyle = window.getComputedStyle(obj, "");
+		return currentStyle.getPropertyValue(csspropertyNS);
+	}
+}
+
+function fetchOffset(obj, mode) 
+{
+	var left_offset = 0, top_offset = 0, mode = !mode ? 0 : mode;
+
+	if(obj.getBoundingClientRect && !mode) 
+	{
+		var rect = obj.getBoundingClientRect();
+		var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+		var scrollLeft = Math.max(document.documentElement.scrollLeft, document.body.scrollLeft);
+		
+		if(document.documentElement.dir == 'rtl') 
+		{
+			scrollLeft = scrollLeft + document.documentElement.clientWidth - document.documentElement.scrollWidth;
+		}
+		
+		left_offset = rect.left + scrollLeft - document.documentElement.clientLeft;
+		top_offset = rect.top + scrollTop - document.documentElement.clientTop;
+	}
+	if(left_offset <= 0 || top_offset <= 0) 
+	{
+		left_offset = obj.offsetLeft;
+		top_offset = obj.offsetTop;
+		
+		while((obj = obj.offsetParent) != null) 
+		{
+			position = getCurrentStyle(obj, 'position', 'position');
+			
+			if(position == 'relative') 
+			{
+				continue;
+			}
+			
+			left_offset += obj.offsetLeft;
+			top_offset += obj.offsetTop;
+		}
+	}
+	return {'left' : left_offset, 'top' : top_offset};
+}function showTopLink() {if($G('ft')){var viewPortHeight = parseInt(document.documentElement.clientHeight);var scrollHeight = parseInt(document.body.getBoundingClientRect().top);var basew = parseInt($G('ft').clientWidth);var sw = $G('scrolltop').clientWidth;if (basew < 1000) {var left = parseInt(fetchOffset($G('ft'))['left']);left = left < sw ? left * 2 - sw : left;$G('scrolltop').style.left = ( basew + left ) + 'px';} else {$G('scrolltop').style.left = 'auto';$G('scrolltop').style.right = 0;}if (BROWSER.ie && BROWSER.ie < 7) {$G('scrolltop').style.top = viewPortHeight - scrollHeight - 150 + 'px';}if (scrollHeight < -100) {$G('scrolltop').style.visibility = 'visible';} else{$G('scrolltop').style.visibility = 'hidden';}}}        _attachEvent(window, 'scroll', function(){showTopLink();});
+      </script>
+
+
+ 
+<!--底部结束-->

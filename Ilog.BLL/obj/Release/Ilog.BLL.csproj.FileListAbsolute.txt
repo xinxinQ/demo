@@ -1,0 +1,13 @@
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\Ilog.BLL.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\Ilog.BLL.pdb
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\Com.ILog.Utils.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.Common.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.DAL.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.Model.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\Com.ILog.Data.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.DAL.pdb
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.Common.pdb
+E:\工作目录\项目\博客\code\Ilog.BLL\bin\Release\ILog.Model.pdb
+E:\工作目录\项目\博客\code\Ilog.BLL\obj\Release\ResolveAssemblyReference.cache
+E:\工作目录\项目\博客\code\Ilog.BLL\obj\Release\Ilog.BLL.dll
+E:\工作目录\项目\博客\code\Ilog.BLL\obj\Release\Ilog.BLL.pdb

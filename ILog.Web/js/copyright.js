@@ -1,0 +1,10 @@
+﻿document.writeln("<div class=\" Tc G4\">");
+document.writeln("<a href=\"http://www.instrument.com.cn/service/about.htm\" class=\"G4\">关于我们</a>");
+document.writeln(" - <a href=\"http://www.instrument.com.cn/service/navigate.htm\" class=\"G4\">栏目导航</a> - <a href=\"http://www.instrument.com.cn/Resume/\" class=\"G4\">");
+document.writeln("诚聘英才</a> - <a href=\"http://www.instrument.com.cn/service/vip_service.htm\" class=\"G4\">VIP会员中心</a> - <a href=\"http://bbs.instrument.com.cn/forum_464.htm\" class=\"G4\">客户投诉</a>");
+document.writeln(" - <a href=\"http://www.instrument.com.cn/service/link.htm\" class=\"G4\">友情链接</a> - <a href=\"http://www.instrument.com.cn/service/juristic.htm\" class=\"G4\">法律声明</a>");
+document.writeln(" - <a href=\"http://www.instrument.com.cn/service/contacts.htm\" ");
+document.writeln(" class=\"G4\">联系我们</a> - <a href=\"http://www.instrument.com.cn/news/NewsList.asp?SortID=7\" class=\"G4\">本网动态</a>");
+document.writeln("<br />");
+document.writeln("Instrument.com.cn Copyright<span class=\"Fa\">&copy; </span>1999-2012,All Rights Reserved");
+document.writeln("版权所有</div>");

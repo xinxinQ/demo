@@ -1,0 +1,16 @@
+E:\工作目录\项目\博客\code\ILog.Web\obj\Release\ResolveAssemblyReference.cache
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Web.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Web.pdb
+E:\工作目录\项目\博客\code\ILog.Web\bin\Ilog.BLL.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Model.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.UI.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Common.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.DAL.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\Com.ILog.Data.dll
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Common.pdb
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.DAL.pdb
+E:\工作目录\项目\博客\code\ILog.Web\bin\Ilog.BLL.pdb
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.UI.pdb
+E:\工作目录\项目\博客\code\ILog.Web\bin\ILog.Model.pdb
+E:\工作目录\项目\博客\code\ILog.Web\obj\Release\ILog.Web.dll
+E:\工作目录\项目\博客\code\ILog.Web\obj\Release\ILog.Web.pdb

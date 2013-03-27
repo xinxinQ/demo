@@ -1,0 +1,5 @@
+E:\工作目录\项目\博客\code\ILog.Model\bin\Release\ILog.Model.dll
+E:\工作目录\项目\博客\code\ILog.Model\bin\Release\ILog.Model.pdb
+E:\工作目录\项目\博客\code\ILog.Model\obj\Release\ResolveAssemblyReference.cache
+E:\工作目录\项目\博客\code\ILog.Model\obj\Release\ILog.Model.dll
+E:\工作目录\项目\博客\code\ILog.Model\obj\Release\ILog.Model.pdb

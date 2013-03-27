@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4902DC5C-3C1A-413E-B307-951CE603EEC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ILog.Model</RootNamespace>
+    <AssemblyName>ILog.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ILogat.cs" />
+    <Compile Include="ILogAuthenticationHistory.cs" />
+    <Compile Include="ILogCertificate.cs" />
+    <Compile Include="ILogComment.cs" />
+    <Compile Include="ILogCommenthistory.cs" />
+    <Compile Include="ILogConcernGroup.cs" />
+    <Compile Include="ILogInvitecode.cs" />
+    <Compile Include="ILogMobileCheck.cs" />
+    <Compile Include="ILogOperate.cs" />
+    <Compile Include="ILogOperateLevel.cs" />
+    <Compile Include="ILogOriginal.cs" />
+    <Compile Include="ILogPic.cs" />
+    <Compile Include="ILogReportAbuse.cs" />
+    <Compile Include="ILogSchool.cs" />
+    <Compile Include="ILogShortUrl.cs" />
+    <Compile Include="ILogSource.cs" />
+    <Compile Include="ILogSpread.cs" />
+    <Compile Include="ILogSpreadhistory.cs" />
+    <Compile Include="ILogUserConcern.cs" />
+    <Compile Include="ILogUserFan.cs" />
+    <Compile Include="ILogVisithistory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UBBForbidPost.cs" />
+    <Compile Include="Vip.cs" />
+    <Compile Include="VIPLoginErr.cs" />
+    <Compile Include="VipMail.cs" />
+    <Compile Include="VipILog.cs" />
+    <Compile Include="VipILogCount.cs" />
+    <Compile Include="VipILogLimits.cs" />
+    <Compile Include="VipScore.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

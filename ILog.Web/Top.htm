@@ -1,0 +1,48 @@
+﻿
+<div class="Top">
+<div class="Area" style="position:relative"> <a href="http://www.instrument.com.cn"><img src="http://simg.instrument.com.cn/ilog/blue/images/logo.png" alt="仪器信息网Ilog" class="L" id="imgLogo" /></a>
+<script src="http://simg.instrument.com.cn/ilog/blue/js/MSIE.PNG.js"></script>
+
+
+<ul class="TopList L35 L" id="TopMenu">
+
+</ul>
+
+<!--搜索框开始-->
+<div class="TopSearch L">
+  <input class="input_s G6 L" value="搜索微博、找人" onclick="return LoginDiv(16);" onfocus="if(this.value=='搜索微博、找人')this.value=''" onblur="if(!this.value)this.value='搜索微博、找人'"  type="text" name="txtSearchAll" id="txtSearchAll"  maxlength="20"/> 
+  <input   class="btn L" name="btn_sl" onclick="GetBtnSeachALL()" type="image"  id="btn_sl" src="http://simg.instrument.com.cn/ilog/blue/images/btn.gif" alt="搜索按钮" />
+</div>
+<!--搜索框结束-->
+
+<ul class="TopNav L35 R" id="TopUserMenu">
+</ul>
+
+<!--消息下拉菜单开始-->
+<ul class="WindowMenu Line_blue L30  G6" id="GetMessageOut_Menu" style="position:absolute; top:35px; right:53px; width:170px; display:none;" >
+
+</ul>
+
+<ul class="WindowMenu Line_blue L30" style="display:none;top:35px; right:53px;"  id="GetMessage_Menu">
+
+</ul>
+
+<ul class="WindowMenu  Window180 Line_blue  BrWh" id="GetUser_Menu" style="display:none;top:35px; right:0px;">
+
+</ul>
+
+<ul class="WindowMenu Line_blue" id="GetSearch_Menu" style="display:none; top:35px; right:335px; width:180px">
+<li class="WindowBG" ><a href="javascript:" id="hrSearchPeple" onclick="return GetSeachALL(0)"   >搜索含有"<span class="Red" id="searchPeople"></span>"的人</a></li>
+<li ><a href="javascript:" id="hrSearchILog" onclick="return GetSeachALL(1)"   >搜索含有"<span class="Red" id="searchilog"></span>"的微博</a></li>
+</ul>
+
+
+<ul class="WindowMenu  Window150 Line_blue  BrWh " style="display:none;top:35px; position:absolute;"  id="GetGuanchang_Menu">
+</ul>
+
+</div>
+</div>
+
+
+
+

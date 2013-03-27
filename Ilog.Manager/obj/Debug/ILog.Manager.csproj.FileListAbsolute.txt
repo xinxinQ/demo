@@ -1,0 +1,14 @@
+E:\工作目录\项目\博客\code\ILog.Manager\obj\Debug\ResolveAssemblyReference.cache
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\Ilog.Manager.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\Ilog.Manager.pdb
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\Ilog.BLL.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.Model.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.DAL.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.Common.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\Com.ILog.Data.dll
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.DAL.pdb
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.Common.pdb
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\Ilog.BLL.pdb
+E:\工作目录\项目\博客\code\ILog.Manager\bin\Debug\ILog.Model.pdb
+E:\工作目录\项目\博客\code\ILog.Manager\obj\Debug\Ilog.Manager.dll
+E:\工作目录\项目\博客\code\ILog.Manager\obj\Debug\Ilog.Manager.pdb

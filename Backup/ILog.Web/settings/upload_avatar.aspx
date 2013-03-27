@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="upload_avatar.aspx.cs" Inherits="ILog.Web.settings.upload_avatar" %>

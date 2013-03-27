@@ -1,0 +1,8 @@
+<publishData>
+  <publishTarget publishUrl="C:\Documents and Settings\Administrator\桌面\">
+    <file relUrl="bin/Ilog.WebService.dll" publishTime="05/16/2012 20:51:15" />
+    <file relUrl="bin/Ilog.WebService.pdb" publishTime="05/16/2012 20:51:15" />
+    <file relUrl="Service1.asmx" publishTime="05/16/2012 20:09:02" />
+    <file relUrl="Web.config" publishTime="05/16/2012 20:09:02" />
+  </publishTarget>
+</publishData>
