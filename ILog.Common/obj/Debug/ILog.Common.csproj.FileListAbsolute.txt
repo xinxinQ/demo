@@ -1,6 +1,0 @@
-E:\工作目录\项目\博客\code\ILog.Common\bin\Debug\ILog.Common.dll
-E:\工作目录\项目\博客\code\ILog.Common\bin\Debug\ILog.Common.pdb
-E:\工作目录\项目\博客\code\ILog.Common\bin\Debug\Com.ILog.Utils.dll
-E:\工作目录\项目\博客\code\ILog.Common\obj\Debug\ResolveAssemblyReference.cache
-E:\工作目录\项目\博客\code\ILog.Common\obj\Debug\ILog.Common.dll
-E:\工作目录\项目\博客\code\ILog.Common\obj\Debug\ILog.Common.pdb

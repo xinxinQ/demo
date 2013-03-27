@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxCheckOldMobile.aspx.cs" Inherits="ILog.Web.Ajax.AjaxCheckOldMobile" %>

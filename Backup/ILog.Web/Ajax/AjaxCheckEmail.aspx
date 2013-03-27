@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AjaxCheckEmail.aspx.cs" Inherits="ILog.Web.Ajax.AjaxCheckEmail" %>

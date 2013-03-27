@@ -1,6 +1,0 @@
-E:\工作目录\项目\博客\code\ILog.UI\bin\Debug\ILog.UI.dll
-E:\工作目录\项目\博客\code\ILog.UI\bin\Debug\ILog.UI.pdb
-E:\工作目录\项目\博客\code\ILog.UI\bin\Debug\Com.ILog.Utils.dll
-E:\工作目录\项目\博客\code\ILog.UI\obj\Debug\ResolveAssemblyReference.cache
-E:\工作目录\项目\博客\code\ILog.UI\obj\Debug\ILog.UI.dll
-E:\工作目录\项目\博客\code\ILog.UI\obj\Debug\ILog.UI.pdb
